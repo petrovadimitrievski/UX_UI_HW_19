@@ -22,37 +22,48 @@ body {
  }
  
 
- 
+
+
  .toggle{
     display: inline;
     
  }
- 
+
  header .topNav li {
-     display: inline-block;
-     list-style: none;
-     justify-content:space-evenly;
-     list-style: none;
-     padding: 0px, 20px;
-     font-family:Arial, Helvetica, sans-serif;
-     font-size: 24px;
-     font-weight: 700;
-     color: #07439C;
-     margin: 74px;
-     margin-top: 30px;
-     
- }
- 
+    display: inline-block;
+    list-style: none;
+    justify-content:space-evenly;
+    list-style: none;
+    padding: 0px, 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #07439C;
+    margin: 74px;
+    margin-top: 30px;
+    
+}
+
  .toggleContainer{
     display: none;
     
  }
 
 
+
+
+
+
+
  .active{
     display: block;
     
  }
+
+
+
+
+
 
 
  a { 
