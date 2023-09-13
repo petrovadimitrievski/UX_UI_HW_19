@@ -1,0 +1,447 @@
+html{ 
+    scroll-behavior: smooth;
+}
+
+body {
+    background:url(images/background.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    align-items: center;
+    height: 1024px;
+    margin: 0;
+ }
+ 
+ /* This is header*/ 
+ 
+ header {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+
+ 
+ .toggle{
+    display: inline;
+    
+ }
+ 
+ header .topNav li {
+     display: inline-block;
+     list-style: none;
+     justify-content:space-evenly;
+     list-style: none;
+     padding: 0px, 20px;
+     font-family:Arial, Helvetica, sans-serif;
+     font-size: 24px;
+     font-weight: 700;
+     color: #07439C;
+     margin: 74px;
+     margin-top: 30px;
+     
+ }
+ 
+ .toggleContainer{
+    display: none;
+    
+ }
+
+
+ .active{
+    display: block;
+    
+ }
+
+
+ a { 
+     text-decoration: none;
+     cursor: pointer;}
+ 
+ a:hover {
+     text-decoration: none;
+     transform: all .5s ease ;
+ }
+ .smallLogo {
+    padding-left: 50px;
+    width:210.06px; 
+    height:71.614px;
+    margin-top: -50px;
+ }
+ 
+ 
+ /* This is midle section */ 
+ 
+ .biglogo {
+     display: flex;
+     justify-content: center;
+     width: 670px;
+     height: 500px;
+     margin-left: 30%;
+     margin-top: 70px;
+     position: relative;
+ }
+ 
+ h1 {
+    color: #07439C;
+    text-align: center;
+    font-family: Merriweather, Arial, Helvetica, sans-serif;
+    font-size: 32px;
+ }
+ 
+ 
+ .btnContainer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    
+     
+ }
+ 
+ .button {
+     width: 210px;
+     padding: 10px;
+     background-color: #07439C;
+     color: white;
+     cursor: pointer;
+     border-radius: 20px;
+     font-size: 24px;
+     font-family: 'roboto', Arial, Helvetica, sans-serif;
+     text-align: center;
+     margin-top: 100px;
+     margin-bottom: 10%;
+ }
+ 
+ .button:hover {
+     background-color: pink;
+     color: #07439C;
+     transition: all .3s ease;
+   }
+ 
+     /*  Footer */
+ 
+ h5 { 
+     position:absolute;
+     top: 130%;
+     left:50%;
+     transform: translate(-50%,-50%);
+     color: #07439C;
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 24px;
+      } 
+
+  .footer {    
+     display: flex;
+     justify-content: space-between;
+     padding: 0 64px;
+     font-size: 28px;
+ }
+ 
+ 
+ .list2 {
+     list-style: none;
+     margin-bottom: 77px;
+     margin-left: 200px;
+     color: #07439C;
+     }
+ 
+ 
+h2 {
+   text-align: center;
+   color: #07439C;
+   margin-bottom: 28px;
+   padding-bottom: 50px;
+   padding-top: 50px;
+   font-family: 'Merriweather', serif;
+   font-size: 28px;
+   height: 50px;
+   background-image: radial-gradient(pink 5%, white 70%);
+   
+  }
+
+
+ h3, br {
+     text-align: center;
+     color: #07439C;
+     margin-bottom: 28px;
+     padding-top: 5%;
+     font-family: 'Merriweather', serif;
+     font-size: 24px;
+     }
+ 
+ 
+ footer{
+     background-color: white;
+     flex-wrap: wrap;
+     gap: 20px 30px;
+     gap: 30px;
+ }
+
+ i {
+    margin-right: 20px;
+  }
+ 
+  .footerPic{
+    width:555px; 
+    height:500px;
+    float: right;
+  }
+
+ 
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(241, 227, 230);
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: pink;
+    color: #07439C;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(230, 218, 220);
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #e8eef7;
+    padding: 10px;
+    margin-top: 30px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+
+
+
+
+
+ /* This is My UX Skills section  */
+ 
+ .mySkills {
+     background-color: white;
+     padding: 100px 15px;
+ }
+ 
+ .flexContainer {
+     display: flex;
+     flex-direction: row;
+     background-color: #F6DBE3;
+     padding: 15px;
+     margin: 15px;
+   
+ }
+ 
+ .flexItem {
+  background-color: white;
+  padding: 50px;
+  margin: 0 auto;
+  width: 33%;
+
+ }
+
+ .flexItem img{
+    width: auto;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display : block;
+}
+
+ 
+ p { 
+  font-family: 'roboto', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+ }
+ 
+
+ 
+ 
+ /*  My work */
+ .workGrid1 {
+     display: grid;
+     row-gap: 100px;
+     padding-bottom: 5%;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr;
+     grid-template-areas: 
+     "mockup text" 
+     "text2 mockup2"
+     "mockup3 text3" ;
+ }
+ 
+ 
+ .mockup {
+     grid-area: mockup;
+ }
+ 
+ .mockup2 {
+         grid-area: mockup2;
+     }
+ 
+ .mockup3 {
+         grid-area: mockup3;
+     }
+ 
+ .text {
+         grid-area: text;
+     }
+     
+ .text2 {
+          grid-area: text2;
+         }
+ 
+ .text3 {
+         grid-area: text3;
+     }
+ 
+ 
+
+    .btnContainer2 {
+        display: flex;
+        justify-content: flex-start;
+    
+    }
+    
+    .button2 {
+        width: 210px;
+        padding: 10px;
+        background-color: #07439C;
+        color: white;
+        cursor: pointer;
+        border-radius: 20px;
+        font-size: 24px;
+        font-family: 'roboto', Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+ h4 { 
+     font-size: 24px;
+     font-family: 'Merriweather', serif ;
+   
+ }
+ 
+ 
+ .text, .text2 , .text3{  
+     width: 440px; 
+     height: 350px;
+ }
+ 
+ 
+ .mockup, .mockup3,.text2{ 
+     padding-left: 200px;
+     
+ }
+ 
+
+ .flexItem p{
+     text-align: center;
+     
+ }
+ 
+ .workGrid1 img{
+     width: auto;
+     height: 250px;
+ }
+ 
+ 
+ @media screen and (max-width: 600px) {
+     
+    body { 
+    display: inline-block;
+     }
+     
+     .flexContainer {
+     display: flex;
+     flex-direction: column;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+     padding: 25px;
+     }
+ 
+     .flexItem {
+     width: 50%;
+     }
+
+    
+
+     .workGrid1{
+      display: grid;
+      column-gap: 100px;
+      padding-bottom: 5%;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-areas: 
+         "mockup" 
+         "text" 
+         "mockup2"
+         "text2" 
+         "mockup3" 
+         "text3" ;
+ 
+      justify-items: center;
+      text-align: center;
+     }
+ 
+     .mockup, .mockup3, .text2{ 
+      padding-left:0px;
+     }
+ 
+     .button {
+      width: 210px;
+      padding: 10px;
+      margin-top: 0px;
+      margin-bottom: 10%;
+     }
+ 
+     .btnContainer2  {
+      display: flex;
+      margin-bottom: 20%;
+      justify-content: center;
+       }
+
+       .text, .text2, .text3 {
+        margin-top: -100px;
+       }
+
+
+
+       .column,  input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+
+
+ }
