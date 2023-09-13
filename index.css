@@ -190,9 +190,7 @@ h2 {
   }
 
  
-  * {
-    box-sizing: border-box;
-  }
+  
   
   /* Style inputs */
   input[type=text], select, textarea {
