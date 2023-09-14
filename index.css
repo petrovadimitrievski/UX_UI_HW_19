@@ -17,33 +17,41 @@ body {
  header {
      width: 100%;
      display: flex;
-     justify-content: space-between;
+     justify-content: space-around;
      align-items: center;
  }
  
+i{
+    margin-right: 0;
+}
+ 
+.topNavList{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
 
- .toggle{
-    display: inline;
- }
-
- header .topNav, li {
-    display: inline-block;
-    list-style: none;
-    justify-content:space-evenly;
+ .topNavList li {
     list-style: none;
     padding: 0px, 20px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: 700;
     color: #07439C;
-    margin: 74px;
+    margin: 20px;
     margin-top: 30px;  
 }
 
+
  .toggleContainer{
     display: none; 
+    position: absolute;
  }
 
+ .MyProject {
+    margin-top: 1rem;
+
+ }
 
  .active {
     display: block;  
@@ -60,10 +68,10 @@ body {
      color: #07439C;
  }
  .smallLogo {
-    padding-left: 50px;
-    width:210.06px; 
-    height:71.614px;
-    margin-top: -50px;
+    width:300px; 
+    height:100px;
+    margin-top: 30px;
+    
  }
  
  
@@ -175,7 +183,7 @@ h2 {
      gap: 30px;
  }
 
- i {
+ footer i {
     margin-right: 20px;
   }
  
@@ -218,7 +226,7 @@ h2 {
     margin-top: 30px;
   }
   
-  /* Create two columns that float next to eachother */
+  /*  two columns that float next to eachother */
   .column {
     float: left;
     width: 50%;

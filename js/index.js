@@ -26,7 +26,7 @@ $(".toggle").click(function(){
 // $("li").css("color", "#ff0000");
 
 
-// Copy the text from Class vidio (not working)
+// write the text from Class vidio  (not working)
 // $ (".toggle").on("click", function()) {
 // $(".toggleContainer").toggle();
 
