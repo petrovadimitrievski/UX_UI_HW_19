@@ -1,5 +1,5 @@
 
-// I  will delete it after Homework ( this is just for practice ) 
+// I  will delete it after Homework ( just for practice ) 
 function stringConcat(){
     var Welcome="Welcome and Thank you";
     var Web=" for Visiting my Portfolio page";
@@ -19,3 +19,15 @@ $(".toggle").click(function(){
 });
 
 
+// This is also not working :( 
+// $(".topNav").css("color", "#ff0000");
+
+// This is unly working on My Projects-why?
+// $("li").css("color", "#ff0000");
+
+
+// Copy the text from Class vidio (not working)
+// $ (".toggle").on("click", function()) {
+// $(".toggleContainer").toggle();
+
+// }
