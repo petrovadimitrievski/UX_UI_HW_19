@@ -123,127 +123,7 @@ i{
      transition: all .3s ease;
    }
  
-     /*  Footer */
- 
- h5 { 
-     position:absolute;
-     top: 130%;
-     left:50%;
-     transform: translate(-50%,-50%);
-     color: #07439C;
-     text-align: center;
-     font-family: Arial, Helvetica, sans-serif;
-     font-size: 24px;
-      } 
-
-  .footer {    
-     display: flex;
-     justify-content: space-between;
-     padding: 0 64px;
-     font-size: 28px;
- }
- 
- 
- .list2 {
-     list-style: none;
-     margin-bottom: 77px;
-     margin-left: 200px;
-     color: #07439C;
-     }
- 
- 
-h2 {
-   text-align: center;
-   color: #07439C;
-   margin-bottom: 28px;
-   padding-bottom: 50px;
-   padding-top: 50px;
-   font-family: 'Merriweather', serif;
-   font-size: 28px;
-   height: 50px;
-   background-image: radial-gradient(pink 5%, white 70%);
-   
-  }
-
-
- h3, br {
-     text-align: center;
-     color: #07439C;
-     margin-bottom: 28px;
-     padding-top: 5%;
-     font-family: 'Merriweather', serif;
-     font-size: 24px;
-     }
- 
- 
- footer{
-     background-color: white;
-     flex-wrap: wrap;
-     gap: 20px 30px;
-     gap: 30px;
- }
-
- footer i {
-    margin-right: 20px;
-  }
- 
-  .footerPic{
-    width:555px; 
-    height:500px;
-    float: right;
-  }
-
- 
-  
-  
-  /* Style inputs */
-  input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid rgb(241, 227, 230);
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  input[type=submit] {
-    background-color: pink;
-    color: #07439C;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: rgb(230, 218, 220);
-  }
-  
-  /* Style the container/contact section */
-  .container {
-    border-radius: 5px;
-    background-color: #e8eef7;
-    padding: 10px;
-    margin-top: 30px;
-  }
-  
-  /*  two columns that float next to eachother */
-  .column {
-    float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-
-
-
+    
 
 
 
@@ -376,6 +256,141 @@ h2 {
      height: 250px;
  }
  
+
+ /*  Footer */
+ 
+ /* h5 { 
+    position:absolute;
+    top: 130%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: #07439C;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+     }  */
+
+ .footer {    
+    display: flex;
+    justify-content: space-between;
+    padding: 0 64px;
+    font-size: 28px;
+}
+
+
+.list2 {
+    list-style: none;
+    margin-bottom: 77px;
+    margin-right: 200px;
+    color: #07439C;
+    }
+
+
+h2 {
+  text-align: center;
+  color: #07439C;
+  margin-bottom: 28px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  font-family: 'Merriweather', serif;
+  font-size: 28px;
+  height: 50px;
+  background-image: radial-gradient(pink 5%, white 70%);
+  
+ }
+
+
+.a{
+    color: pink;
+    text-decoration: underline;
+
+}
+
+h3, br {
+    text-align: center;
+    color: #07439C;
+    margin-bottom: 28px;
+    padding-top: 5%;
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    }
+
+
+footer{
+    background-color: white;
+    flex-wrap: wrap;
+    gap: 20px 30px;
+    gap: 30px;
+}
+
+footer i {
+   margin-right: 20px;
+ }
+
+ .footerPic{
+   width:555px; 
+   height:500px;
+   float: right;
+ }
+
+/* Change the size of the box???? */
+ 
+ /* Contact Form */
+ /* Style inputs */
+ input[type=text], select, textarea {
+   width: 100%;
+   padding: 12px;
+   border: 1px solid rgb(241, 227, 230);
+   margin-top: 6px;
+   margin-bottom: 16px;
+   resize: vertical;
+ }
+ 
+ input[type=submit] {
+   background-color: pink;
+   color: #07439C;
+   padding: 12px 20px;
+   border: none;
+   cursor: pointer;
+ }
+ 
+ input[type=submit]:hover {
+   background-color: rgb(230, 218, 220);
+ }
+ 
+ /* Style the container/contact section */
+ .container {
+   border-radius: 5px;
+   background-color: #e8eef7;
+   padding: 10px;
+   margin-top: 30px;
+ }
+ 
+ /*  two columns that float next to eachother */
+ .column {
+   float: left;
+   width: 50%;
+   margin-top: 6px;
+   padding: 20px;
+ }
+ 
+ /* Clear floats after the columns */
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+ 
+
+
+
+
+
+
+
+
+
+
  
  @media screen and (max-width: 600px) {
      
