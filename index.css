@@ -62,11 +62,15 @@ i{
      text-decoration: none;
      cursor: pointer;}
  
- a:hover {
+     .button2, a:hover {
+    background-color: pink;
      text-decoration: none;
      transform: all .5s ease ;
      color: #07439C;
  }
+
+
+
  .smallLogo {
     width:300px; 
     height:100px;
@@ -117,11 +121,7 @@ i{
      margin-bottom: 10%;
  }
  
- .button:hover {
-     background-color: pink;
-     color: #07439C;
-     transition: all .3s ease;
-   }
+
  
     
 
@@ -225,6 +225,7 @@ i{
         font-family: 'roboto', Arial, Helvetica, sans-serif;
         text-align: center;
         margin-bottom: 10%;
+
     }
 
  h4 { 
@@ -318,6 +319,7 @@ h3, br {
 
 footer{
     background-color: white;
+    color: #07439C;
     flex-wrap: wrap;
     gap: 20px 30px;
     gap: 30px;
@@ -332,6 +334,10 @@ footer i {
    height:400px;
    float: right;
    padding-top: 80px;
+ }
+
+ .fname {
+    color: #07439C;
  }
 
 /* Change the size of the box???? */
