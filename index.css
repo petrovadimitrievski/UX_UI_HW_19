@@ -12,7 +12,15 @@ body {
     margin: 0;
  }
  
+
+ /* ......................................................... */
  /* This is header*/ 
+
+ .smallLogo {
+    width:300px; 
+    height:100px;
+    margin-top: 30px;
+ }
  
  header {
      width: 100%;
@@ -20,10 +28,6 @@ body {
      justify-content: space-around;
      align-items: center;
  }
- 
-i{
-    margin-right: 0;
-}
  
 .topNavList{
     display: flex;
@@ -33,13 +37,12 @@ i{
 
  .topNavList li {
     list-style: none;
-    padding: 0px, 20px;
+    padding: 0px 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: 700;
     color: #07439C;
-    margin: 20px;
-    margin-top: 30px;  
+    margin: 20px; 
 }
 
 
@@ -50,7 +53,7 @@ i{
 
  .MyProject {
     margin-top: 1rem;
-
+    margin-right: 10px;
  }
 
  .active {
@@ -58,25 +61,27 @@ i{
  }
 
 
- a { 
+i { padding-right: 10px;
+}
+
+i:hover{
+    transition: all, 0.5s ease-in;
+    color: rgb(224, 139, 167);
+}
+
+a { 
      text-decoration: none;
-     cursor: pointer;}
+     cursor: pointer;
+}
  
-     .button2, a:hover {
-    background-color: pink;
-     text-decoration: none;
-     transform: all .5s ease ;
-     color: #07439C;
- }
+
+ a:hover {
+        text-decoration: underline;
+        transition: all 0.5s ease-in;
+        color: #07439C;
+     }
 
 
-
- .smallLogo {
-    width:300px; 
-    height:100px;
-    margin-top: 30px;
-    
- }
  
  
  /* This is midle section */ 
@@ -104,7 +109,6 @@ i{
      justify-content: center;
      align-items: center;
     
-     
  }
  
  .button {
@@ -123,8 +127,6 @@ i{
  
 
  
-    
-
 
 
  /* This is My UX Skills section  */
@@ -172,7 +174,6 @@ i{
  .workGrid1 {
      display: grid;
      row-gap: 100px;
-     padding-bottom: 5%;
      grid-template-columns: 1fr 1fr;
      grid-template-rows: 1fr 1fr 1fr;
      grid-template-areas: 
@@ -225,15 +226,16 @@ i{
         font-family: 'roboto', Arial, Helvetica, sans-serif;
         text-align: center;
         margin-bottom: 10%;
-
     }
+
 
  h4 { 
      font-size: 24px;
      font-family: 'Merriweather', serif ;
-   
+     color: #07439C;
+     
  }
- 
+
  
  .text, .text2 , .text3{  
      width: 440px; 
@@ -260,29 +262,20 @@ i{
 
  /*  Footer */
  
- /* h5 { 
-    position:absolute;
-    top: 130%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    color: #07439C;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-     }  */
 
  .footer {    
     display: flex;
     justify-content: space-between;
-    padding: 0 64px;
-    font-size: 28px;
+    padding: 0 100px;
+    font-size: 24px;
 }
 
 
 .list2 {
     list-style: none;
-    margin-bottom: 77px;
+    margin-bottom: 70px;
     margin-right: 30px;
+    margin-top: 50px;
     color: #07439C;
     }
 
@@ -301,9 +294,10 @@ h2 {
  }
 
 
-.a {
-    color: pink;
+.a {margin-top: 50px;
+    margin-right: 30px;
     text-decoration: underline;
+    color: #07439C;
 
 }
 
@@ -311,7 +305,6 @@ h3, br {
     text-align: center;
     color: #07439C;
     margin-bottom: 28px;
-    padding-top: 5%;
     font-family: 'Merriweather', serif;
     font-size: 24px;
     }
@@ -330,8 +323,8 @@ footer i {
  }
 
  .footerPic{
-   width:400px; 
-   height:400px;
+   width:auto; 
+   height:300px;
    float: right;
    padding-top: 80px;
  }
@@ -339,6 +332,8 @@ footer i {
  .fname {
     color: #07439C;
  }
+
+ 
 
 /* Change the size of the box???? */
  
@@ -354,15 +349,24 @@ footer i {
  }
  
  input[type=submit] {
-   background-color: pink;
-   color: #07439C;
-   padding: 12px 20px;
    border: none;
+   width: 210px;
+   padding: 10px;
+   background-color: #07439C;
+   color: white;
    cursor: pointer;
+   border-radius: 20px;
+   font-size: 24px;
+   font-family: 'roboto', Arial, Helvetica, sans-serif;
+   text-align: center;
+   margin-bottom: 10%;
  }
  
  input[type=submit]:hover {
-   background-color: rgb(230, 218, 220);
+    background-color: pink;
+    text-decoration: none;
+    transition: all 0.5s ease-in;
+    color: #07439C;;
  }
  
  /* Style the container/contact section */
@@ -462,12 +466,21 @@ footer i {
 
 
 
-       .footer , .footerPic{    
-        display: inline-block;
+       .footer, .footerPic{    
+        display: inline;
         justify-content: space-between;
         padding: 0 64px;
         font-size: 28px;
         padding-bottom: 100px;
     }
+    .footerPic{
+        width:auto; 
+        height:auto;
+        float: right;
+        padding-top: 80px;
+      }
+
+
+
 
  }

@@ -1,0 +1,167 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html{ 
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image:url(pic/z.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    align-items: center;
+    height: 1024px;
+    margin: 0;
+    background-image: linear-gradient(
+        rgb(0,0,0,0.9)), rgb(0,0,0,0.6)
+}
+
+
+ /* This is header*/ 
+ .smallLogo {
+    width:300px; 
+    height:100px;
+    margin-top: 30px;
+ }
+ 
+ header {
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+ 
+.topNavList{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+ .topNavList li {
+    list-style: none;
+    padding: 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #07439C;
+    margin: 20px; 
+}
+
+
+a { 
+     text-decoration: none;
+     cursor: pointer;
+}
+ 
+
+ li:hover {
+    text-decoration: underline;
+    transition: all 0.5s ease-in;
+    color: pink;
+ }
+
+
+
+
+
+
+
+/* <!-- This is middle section TEXT --> */
+
+section { display: inline-block;
+    width: 900px;
+    height: 618px;
+    float: right;
+}
+
+h1 {
+    color: pink;
+    text-align: left;
+    font-family: Merriweather, Arial, Helvetica, sans-serif;
+    font-size: 32px;
+ }
+
+ p {
+    color: black;
+    text-align:left;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.72px;
+
+ }
+   
+
+ 
+ 
+ .btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    float: right;
+    margin-right: 100px;
+ }
+
+
+ .btnContainer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    
+ }
+ 
+ .button {
+     width: 210px;
+     padding: 10px;
+     background-color: #07439C;
+     color: white;
+     cursor: pointer;
+     border-radius: 20px;
+     font-size: 24px;
+     font-family: 'roboto', Arial, Helvetica, sans-serif;
+     text-align: center;
+     margin-top: 100px;
+     margin-bottom: 10%;
+     margin-right: 50px;
+ }
+ 
+
+ .button2 {
+    width: 210px;
+    padding: 10px;
+    background-color:pink;
+    color: #07439C;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 24px;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 10%;
+}
+
+ .button:hover {
+    background-color: pink;
+    text-decoration: none;
+    transition: all 0.5s ease-in;
+    color: #07439C;
+ }
+
+ .button2:hover {
+    background-color: #07439C;
+    text-decoration: none;
+    transition: all 0.5s ease-in;
+    color: pink;
+ }
+
+@media screen and (max-width: 600px) {
+     
+    body { 
+    display: inline-block;
+     }
+    }
