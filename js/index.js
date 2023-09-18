@@ -18,9 +18,7 @@ $(".toggle").click(function(){
 });
 
 
-// This is also not working :( 
 $("li").css("color", "#07439C");
 
-// This is unly working on My Projects-why?
-// $("li").css("color", "#ff0000");
+
 

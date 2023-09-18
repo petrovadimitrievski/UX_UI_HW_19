@@ -125,8 +125,13 @@ a {
      margin-bottom: 10%;
  }
  
+ .button, .button2:hover {
+    background-color: pink;
+    text-decoration: none;
+    transition: all 0.5s ease-in;
+    color: #07439C;
+ }
 
- 
 
 
  /* This is My UX Skills section  */
