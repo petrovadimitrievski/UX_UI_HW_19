@@ -267,6 +267,10 @@ li:hover {
      
  }
  
+.mockup3{
+    margin-left: 200px;
+    margin-top: 70px;
+}
 
  .flexItem p{
      text-align: center;
@@ -464,10 +468,13 @@ footer i {
       text-align: center;
      }
  
-     .mockup, .mockup3, .text2{ 
+     .mockup,  .text2{ 
       padding-left:0px;
      }
  
+     .mockup3{
+        padding-right: 400px;
+     }
      .button {
       width: 210px;
       padding: 10px;
