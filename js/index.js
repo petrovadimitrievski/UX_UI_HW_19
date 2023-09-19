@@ -18,7 +18,9 @@ $(".toggle").click(function(){
 });
 
 
-$("li").css("color", "#07439C");
+// $("li").css("color", "#07439C");
+
+
 
 
 

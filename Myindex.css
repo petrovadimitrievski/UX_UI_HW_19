@@ -8,17 +8,21 @@ html{
     scroll-behavior: smooth;
 }
 
-body {
-    background-image:url(pic/z.jpg);
-    background-size: cover;
+body::after {
+    content: "";
+    background:url(images/z.jpg);
+    opacity: 0.5;
+    top:0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center top;
-    align-items: center;
     height: 1024px;
     margin: 0;
 
-    /* background-image: linear-gradient(
-        rgb(0,0,0,0.9)), rgb(0,0,0,0.6) */
 }
 
 
@@ -80,7 +84,7 @@ section { display: inline-block;
 }
 
 h1 {
-    color: pink;
+    color: rgb(214, 81, 103);
     text-align: left;
     font-family: Merriweather, Arial, Helvetica, sans-serif;
     font-size: 32px;

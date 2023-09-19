@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 html{ 
     scroll-behavior: smooth;
 }
@@ -75,12 +80,11 @@ a {
 }
  
 
- a:hover {
-        text-decoration: underline;
-        transition: all 0.5s ease-in;
-        color: #07439C;
+li:hover {
+    text-decoration: underline;
+    transition: all 0.5s ease-in;
+    color: pink;
      }
-
 
  
  
@@ -125,7 +129,15 @@ a {
      margin-bottom: 10%;
  }
  
- .button, .button2:hover {
+ .button:hover {
+    background-color: pink;
+    text-decoration: none;
+    transition: all 0.5s ease-in;
+    color: #07439C;
+ }
+
+ 
+ .button2:hover {
     background-color: pink;
     text-decoration: none;
     transition: all 0.5s ease-in;
