@@ -134,14 +134,15 @@ li:hover {
     text-decoration: none;
     transition: all 0.5s ease-in;
     color: #07439C;
+   
  }
-
  
  .button2:hover {
     background-color: pink;
     text-decoration: none;
     transition: all 0.5s ease-in;
     color: #07439C;
+   
  }
 
 
