@@ -60,6 +60,7 @@ body::after {
 a { 
      text-decoration: none;
      cursor: pointer;
+     font-size: 24px;
 }
  
 
@@ -136,6 +137,7 @@ letter-spacing: 0.72px;
  }
  
 
+
  .button2 {
     width: 210px;
     padding: 10px;
@@ -163,6 +165,8 @@ letter-spacing: 0.72px;
     transition: all 0.5s ease-in;
     color: pink;
  }
+
+
 
 @media screen and (max-width: 600px) {
      
