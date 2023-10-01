@@ -421,20 +421,19 @@ footer i {
  
 
 
-
-
-
-
-
-
-
-
  
  @media screen and (max-width: 600px) {
      
     body { 
     display: inline-block;
-     }
+    background-color: white;
+    background:url(images/background1.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:top ;
+    align-items: center;  
+    }
+     
      
      .flexContainer {
      display: flex;
@@ -484,6 +483,17 @@ footer i {
       margin-bottom: 10%;
      }
  
+
+ 
+     .btnContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+       
+    }
+
+
      .btnContainer2  {
       display: flex;
       margin-bottom: 20%;
@@ -511,6 +521,8 @@ footer i {
       }
 
 
-
+ul{
+    margin-left: 200px;
+}
 
  }

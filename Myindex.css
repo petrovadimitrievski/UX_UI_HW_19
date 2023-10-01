@@ -1,75 +1,67 @@
-
 * {
     margin: 0px;
     padding: 0px;
 }
 
-html{ 
+html {
     scroll-behavior: smooth;
 }
 
 body::after {
     content: "";
-    background:url(images/z.jpg);
+    background: url(images/z.jpg);
     opacity: 0.5;
-    top:0;
+    top: 0;
     left: 0;
     right: 0;
-    position: absolute;
+    position:absolute;
     z-index: -1;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center top;
+    background-position: center;
     height: 1024px;
     margin: 0;
 
 }
 
 
- /* This is header*/ 
- .smallLogo {
-    width:300px; 
-    height:100px;
-    margin-top: 30px;
- }
- 
- header {
-     width: 100%;
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
- }
- 
-.topNavList{
-    display: flex;
-    width: 100%;
+/* This is header*/
+
+
+.navbar-expand-lg {
+    display: inline;
     justify-content: space-between;
 }
 
- .topNavList li {
-    list-style: none;
-    padding: 0px 20px;
-    font-family: Arial, Helvetica, sans-serif;
+.nav-underline .nav-link {
+    display: inline;
+    padding-right: 70px;
+    padding-left: 10px;
     font-size: 24px;
-    font-weight: 700;
+    font-family: 'Merriweather', serif;
+    justify-content: space-between;
+}
+
+
+.nav-underline .nav-link:hover {
+    color: rgb(245, 71, 100);
+}
+
+.dropdown-item {
     color: #07439C;
-    margin: 20px; 
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
 }
 
-
-a { 
-     text-decoration: none;
-     cursor: pointer;
-     font-size: 24px;
-}
- 
-
- li:hover {
+.dropdown-item:hover {
     text-decoration: underline;
-    transition: all 0.5s ease-in;
-    color: pink;
- }
+    color: rgb(245, 71, 100);
+}
 
+
+
+
+.z { color: #07439C;}
 
 
 
@@ -78,7 +70,8 @@ a {
 
 /* <!-- This is middle section TEXT --> */
 
-section { display: inline-block;
+section {
+    display: inline-block;
     width: 900px;
     height: 618px;
     float: right;
@@ -89,88 +82,56 @@ h1 {
     text-align: left;
     font-family: Merriweather, Arial, Helvetica, sans-serif;
     font-size: 32px;
- }
+}
 
- p {
+p {
     color: black;
-    text-align:left;
+    text-align: left;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
-font-size: 24px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0.72px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.72px;
 
- }
-   
+}
 
- 
- 
- .btn {
+
+
+
+.btn {
     display: flex;
     justify-content: space-evenly;
     align-items: start;
-    float: right;
-    margin-right: 100px;
- }
-
-
- .btnContainer {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-    
- }
- 
- .button {
-     width: 210px;
-     padding: 10px;
-     background-color: #07439C;
-     color: white;
-     cursor: pointer;
-     border-radius: 20px;
-     font-size: 24px;
-     font-family: 'roboto', Arial, Helvetica, sans-serif;
-     text-align: center;
-     margin-top: 100px;
-     margin-bottom: 10%;
-     margin-right: 50px;
- }
- 
-
-
- .button2 {
-    width: 210px;
-    padding: 10px;
-    background-color:pink;
-    color: #07439C;
-    cursor: pointer;
-    border-radius: 20px;
-    font-size: 24px;
-    font-family: 'roboto', Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 10%;
+    margin-right: 30px;
+    margin-top: 50px;
 }
 
- .button:hover {
+.projects{
+    background-color: #07439C;
+    color:white;
+    font-family:'Roboto', Arial, Helvetica, sans-serif;
+
+}
+
+.projects:hover {
     background-color: pink;
     text-decoration: none;
     transition: all 0.5s ease-in;
     color: #07439C;
- }
+}
 
-.button2:hover {
+
+.contactButton {
+background-color: pink;
+color: #07439C;
+font-family:'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.contactButton:hover {
     background-color: #07439C;
     text-decoration: none;
     transition: all 0.5s ease-in;
     color: pink;
- }
+}
 
 
-
-@media screen and (max-width: 600px) {
-     
-    body { 
-    display: inline-block;
-     }
-    }
