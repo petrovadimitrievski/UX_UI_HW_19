@@ -112,6 +112,7 @@ li:hover {
      display: flex;
      justify-content: center;
      align-items: center;
+     margin-bottom: 50px;
     
  }
  
@@ -243,7 +244,7 @@ li:hover {
         font-size: 26px;
         font-family: 'roboto', Arial, Helvetica, sans-serif;
         text-align: center;
-        margin-bottom: 10%;
+        margin-bottom: 20%;
         margin-top: 30px;
     }
 
@@ -258,7 +259,7 @@ li:hover {
 
  
  .text, .text2 , .text3{  
-     width: 440px; 
+     width: 650px; 
      height: 350px;
  }
  
@@ -308,7 +309,7 @@ h2 {
   text-align: center;
   color: #07439C;
   margin-bottom: 28px;
-  margin-top: 200px;
+  margin-top: 50px;
   padding-bottom: 50px;
   padding-top: 50px;
   font-family: 'Merriweather', serif;
@@ -333,6 +334,7 @@ h3, br {
     margin-bottom: 28px;
     font-family: 'Merriweather', serif;
     font-size: 24px;
+    margin-top: 20px;
     }
 
 
@@ -524,5 +526,17 @@ footer i {
 ul{
     margin-left: 200px;
 }
+
+
+.container {
+    border-radius: 5px;
+    background-color: #e8eef7;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+  }
+  
+
 
  }
