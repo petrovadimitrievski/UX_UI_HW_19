@@ -14,15 +14,17 @@ body::after {
     top: 0;
     left: 0;
     right: 0;
-    position:absolute;
+    position:fixed;
     z-index: -1;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     background-position: center;
-    height: 1024px;
+    height: 100%;
     margin: 0;
 
 }
+
+
 
 
 /* This is header*/
@@ -61,7 +63,8 @@ body::after {
 
 
 
-.z { color: #07439C;}
+.z { color: #07439C;
+margin-top: 50px;}
 
 
 
@@ -103,7 +106,7 @@ p {
     justify-content: space-evenly;
     align-items: start;
     margin-right: 30px;
-    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .projects{
@@ -132,6 +135,8 @@ font-family:'Roboto', Arial, Helvetica, sans-serif;
     text-decoration: none;
     transition: all 0.5s ease-in;
     color: pink;
+    margin-bottom: 100px;
+    
 }
 
-
+.btnMy{ align-items: center;}
