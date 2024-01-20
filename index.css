@@ -3,292 +3,301 @@
     padding: 0px;
 }
 
-html{ 
+html {
     scroll-behavior: smooth;
 }
 
 body {
-    background:url(images/background.png);
-    background-size:cover;
+    background: url(images/background.png);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
-    align-items: center;
+    /* align-items: center; */
     height: 1024px;
+
     margin: 0;
- }
- 
+    display: block;
+}
 
- /* ......................................................... */
- /* This is header*/ 
 
- .smallLogo {
-    width:300px; 
-    height:100px;
+/* ......................................................... */
+/* This is header*/
+
+.smallLogo {
+    width: 300px;
+    height: 100px;
     margin-top: 30px;
- }
- 
- header {
-     width: 100%;
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
- }
- 
-.topNavList{
+}
+
+header {
+    width: 100%;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.topNavList {
+    display: flex;
+    flex-direction: row;
     width: 100%;
     justify-content: space-between;
 }
 
- .topNavList li {
+.topNavList li {
     list-style: none;
     padding: 0px 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: 700;
     color: #07439C;
-    margin: 20px; 
+    margin: 20px;
 }
 
-
- .toggleContainer{
-    display: none; 
-    position: absolute;
- }
-
- .MyProject {
+.MyProject {
     margin-top: 1rem;
     margin-right: 10px;
- }
-
- .active {
-    display: block;  
- }
-
-
-i { padding-right: 10px;
 }
 
-i:hover{
+
+.toggleContainer {
+    display: none;
+    position: absolute;
+}
+
+
+.active {
+    display: block;
+}
+
+
+i {
+    padding-right: 10px;
+}
+
+i:hover {
     transition: all, 0.5s ease-in;
     color: rgb(224, 139, 167);
 }
 
-a { 
-     text-decoration: none;
-     cursor: pointer;
+a {
+    text-decoration: none;
+    cursor: pointer;
 }
- 
+
 
 li:hover {
     text-decoration: underline;
     transition: all 0.5s ease-in;
-    color: pink;
-     }
+    color: rgb(206, 113, 128);
+}
 
- 
- 
- /* This is midle section */ 
- 
- .biglogo {
-     display: flex;
-     justify-content: center;
-     width: 670px;
-     height: 500px;
-     margin-left: 30%;
-     margin-top: 70px;
-     position: relative;
- }
- 
- h1 {
+
+
+/* This is midle section */
+
+.biglogo {
+    display: flex;
+    justify-content: center;
+    width: 670px;
+    height: 500px;
+    margin-left: 30%;
+    margin-top: 70px;
+    position: relative;
+}
+
+h1 {
     color: #07439C;
     text-align: center;
     font-family: Merriweather, Arial, Helvetica, sans-serif;
     font-size: 32px;
- }
- 
- 
- .btnContainer {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     margin-bottom: 50px;
-    
- }
- 
- .button {
-     width: 210px;
-     padding: 10px;
-     background-color: #07439C;
-     color: white;
-     cursor: pointer;
-     border-radius: 20px;
-     font-size: 24px;
-     font-family: 'roboto', Arial, Helvetica, sans-serif;
-     text-align: center;
-     margin-top: 100px;
-     margin-bottom: 10%;
- }
- 
- .button:hover {
+}
+
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.button {
+    width: 210px;
+    padding: 10px;
+    background-color: #07439C;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 24px;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 10%;
+}
+
+.button:hover {
     background-color: pink;
     text-decoration: none;
     transition: all 0.5s ease-in;
     color: #07439C;
-   
- }
- 
- .button2:hover {
+
+}
+
+.button2:hover {
     background-color: pink;
     text-decoration: none;
     transition: all 0.5s ease-in;
     color: #07439C;
-   
- }
+
+}
 
 
 
- /* This is My UX Skills section  */
- 
- .mySkills {
-     background-color: white;
-     padding: 100px 15px;
- }
- 
- .flexContainer {
-     display: flex;
-     flex-direction: row;
-     background-color: #F6DBE3;
-     padding: 15px;
-     margin: 15px;
-   
- }
- 
- .flexItem {
-  background-color: white;
-  padding: 50px;
-  margin: 0 auto;
-  width: 33%;
+/* This is My UX Skills section  */
 
- }
+.mySkills {
+    background-color: white;
+    padding: 100px 15px;
+}
 
- .flexItem img{
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: #F6DBE3;
+    padding: 15px;
+    margin: 15px;
+
+}
+
+.flexItem {
+    background-color: white;
+    padding: 50px;
+    margin: 0 auto;
+    width: 33%;
+
+}
+
+.flexItem img {
     width: auto;
     height: 300px;
     margin-left: auto;
     margin-right: auto;
-    display : block;
+    display: block;
 }
 
- 
- p { 
-  font-family: 'roboto', Arial, Helvetica, sans-serif;
-  font-size: 20px;
- }
- 
 
- 
- 
- /*  My work */
- .workGrid1 {
-     display: grid;
-     row-gap: 100px;
-     grid-template-columns: 1fr 1fr;
-     grid-template-rows: 1fr 1fr 1fr;
-     grid-template-areas: 
-     "mockup text" 
-     "text2 mockup2"
-     "mockup3 text3" ;
- }
- 
- 
- .mockup {
-     grid-area: mockup;
- }
- 
- .mockup2 {
-         grid-area: mockup2;
-     }
- 
- .mockup3 {
-         grid-area: mockup3;
-     }
- 
- .text {
-         grid-area: text;
-     }
-     
- .text2 {
-          grid-area: text2;
-         }
- 
- .text3 {
-         grid-area: text3;
-     }
- 
- 
-
-    .btnContainer2 {
-        display: flex;
-        justify-content: flex-start;
-    
-    }
-    
-    .button2 {
-        width: 210px;
-        padding: 10px;
-        background-color: #07439C;
-        color: white;
-        cursor: pointer;
-        border-radius: 20px;
-        font-size: 26px;
-        font-family: 'roboto', Arial, Helvetica, sans-serif;
-        text-align: center;
-        margin-bottom: 20%;
-        margin-top: 30px;
-    }
+p {
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
 
 
- h4 { 
-     font-size: 28px;
-     font-family: 'Merriweather', serif ;
-     color: #07439C;
-     margin-bottom: 10px;
-     
- }
 
- 
- .text, .text2 , .text3{  
-     width: 650px; 
-     height: 350px;
- }
- 
- 
- .mockup, .mockup3,.text2{ 
-     padding-left: 200px;
-     
- }
- 
-.mockup3{
+
+/*  My work */
+.workGrid1 {
+    display: grid;
+    row-gap: 100px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "mockup text"
+        "text2 mockup2"
+        "mockup3 text3";
+}
+
+
+.mockup {
+    grid-area: mockup;
+}
+
+.mockup2 {
+    grid-area: mockup2;
+}
+
+.mockup3 {
+    grid-area: mockup3;
+}
+
+.text {
+    grid-area: text;
+}
+
+.text2 {
+    grid-area: text2;
+}
+
+.text3 {
+    grid-area: text3;
+}
+
+
+
+.btnContainer2 {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.button2 {
+    width: 210px;
+    padding: 10px;
+    background-color: #07439C;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 26px;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 20%;
+    margin-top: 30px;
+}
+
+
+h4 {
+    font-size: 28px;
+    font-family: 'Merriweather', serif;
+    color: #07439C;
+    margin-bottom: 10px;
+
+}
+
+
+.text,
+.text2,
+.text3 {
+    width: 650px;
+    height: 350px;
+}
+
+
+.mockup,
+.mockup3,
+.text2 {
+    padding-left: 200px;
+
+}
+
+.mockup3 {
     margin-left: 200px;
     margin-top: 70px;
 }
 
- .flexItem p{
-     text-align: center;
-     
- }
- 
- .workGrid1 img{
-     width: auto;
-     height: 250px;
- }
- 
+.flexItem p {
+    text-align: center;
 
- /*  Footer */
- 
+}
 
- .footer {    
+.workGrid1 img {
+    width: auto;
+    height: 250px;
+}
+
+
+/*  Footer */
+
+
+.footer {
     display: flex;
     justify-content: space-between;
     padding: 0 100px;
@@ -302,43 +311,45 @@ li:hover {
     margin-right: 30px;
     margin-top: 50px;
     color: #07439C;
-    }
+}
 
 
 h2 {
-  text-align: center;
-  color: #07439C;
-  margin-bottom: 28px;
-  margin-top: 50px;
-  padding-bottom: 50px;
-  padding-top: 50px;
-  font-family: 'Merriweather', serif;
-  font-size: 36px;
-  height: 50px;
-  background-image: radial-gradient(pink 5%, white 70%);
-  
- }
-
-
-.a {margin-top: 50px;
-    margin-right: 30px;
-    text-decoration: underline;
+    text-align: center;
     color: #07439C;
-    margin-left: 50px;
+    margin-bottom: 28px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+    height: 50px;
+    background-image: radial-gradient(pink 5%, white 70%);
 
 }
 
-h3, br {
+
+.Contact {
+    align-items: start;
+    font-size: 28px;
+    font-weight: 700;
+    color: #07439C;
+    text-decoration: underline;
+}
+
+
+h3,
+br {
     text-align: center;
     color: #07439C;
     margin-bottom: 28px;
     font-family: 'Merriweather', serif;
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 20px;
-    }
+}
 
 
-footer{
+footer {
     background-color: white;
     color: #07439C;
     flex-wrap: wrap;
@@ -347,196 +358,398 @@ footer{
 }
 
 footer i {
-   margin-right: 20px;
- }
+    margin-right: 20px;
+}
 
- .footerPic{
-   width:auto; 
-   height:300px;
-   float: right;
-   padding-top: 80px;
- }
+.footerPic {
+    width: auto;
+    height: 300px;
+    float: right;
+    padding-top: 80px;
+}
 
- .fname {
+.fname {
     color: #07439C;
- }
-
- 
-
-/* Change the size of the box???? */
- 
- /* Contact Form */
- /* Style inputs */
- input[type=text], select, textarea {
-   width: 100%;
-   padding: 12px;
-   border: 1px solid rgb(241, 227, 230);
-   margin-top: 6px;
-   margin-bottom: 16px;
-   resize: vertical;
- }
- 
- input[type=submit] {
-   border: none;
-   width: 210px;
-   padding: 10px;
-   background-color: #07439C;
-   color: white;
-   cursor: pointer;
-   border-radius: 20px;
-   font-size: 24px;
-   font-family: 'roboto', Arial, Helvetica, sans-serif;
-   text-align: center;
-   margin-bottom: 10%;
- }
- 
- input[type=submit]:hover {
-    background-color: pink;
-    text-decoration: none;
-    transition: all 0.5s ease-in;
-    color: #07439C;;
- }
- 
- /* Style the container/contact section */
- .container {
-   border-radius: 5px;
-   background-color: #e8eef7;
-   padding: 10px;
-   margin-top: 30px;
-   margin-bottom: 100px;
- }
- 
- /*  two columns that float next to eachother */
- .column {
-   float: left;
-   width: 90%;
-   margin-top: 6px;
-   padding: 20px;
- }
- 
- /* Clear floats after the columns */
- .row:after {
-   content: "";
-   display: table;
-   clear: both;
- }
- 
-
-
- 
- @media screen and (max-width: 600px) {
-     
-    body { 
-    display: inline-block;
-    background-color: white;
-    background:url(images/background1.png);
-    background-size:contain;
-    background-repeat: no-repeat;
-    background-position:top ;
-    align-items: center;  
-    }
-     
-     
-     .flexContainer {
-     display: flex;
-     flex-direction: column;
-     display: flex;
-     justify-content: center;
-     text-align: center;
-     align-items: center;
-     padding: 25px;
-     }
- 
-     .flexItem {
-     width: 50%;
-     }
-
-    
-
-     .workGrid1{
-      display: grid;
-      column-gap: 100px;
-      padding-bottom: 5%;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-template-areas: 
-         "mockup" 
-         "text" 
-         "mockup2"
-         "text2" 
-         "mockup3" 
-         "text3" ;
- 
-      justify-items: center;
-      text-align: center;
-     }
- 
-     .mockup,  .text2{ 
-      padding-left:0px;
-     }
- 
-     .mockup3{
-        padding-right: 400px;
-     }
-     .button {
-      width: 210px;
-      padding: 10px;
-      margin-top: 0px;
-      margin-bottom: 10%;
-     }
- 
-
- 
-     .btnContainer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 60px;
-       
-    }
-
-
-     .btnContainer2  {
-      display: flex;
-      margin-bottom: 20%;
-      justify-content: center;
-       }
-
-       .text, .text2, .text3 {
-        margin-top: -100px;
-       }
-
-
-
-       .footer, .footerPic{    
-        display: inline;
-        justify-content: space-between;
-        padding: 0 64px;
-        font-size: 28px;
-        padding-bottom: 100px;
-    }
-    .footerPic{
-        width:auto; 
-        height:auto;
-        float: right;
-        padding-top: 80px;
-      }
-
-
-ul{
-    margin-left: 200px;
 }
 
 
+
+/* Change the size of the box???? */
+
+/* Contact Form */
+/* Style inputs */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(241, 227, 230);
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    border: none;
+    width: 210px;
+    padding: 10px;
+    background-color: #07439C;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 24px;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+input[type=submit]:hover {
+    background-color: pink;
+    text-decoration: none;
+    transition: all 0.5s ease-in;
+    color: #07439C;
+    ;
+}
+
+/* Style the container/contact section */
 .container {
     border-radius: 5px;
     background-color: #e8eef7;
     padding: 10px;
     margin-top: 30px;
     margin-bottom: 100px;
-    margin-left: 100px;
-  }
-  
+}
+
+/*  two columns that float next to eachother */
+.column {
+    float: left;
+    width: 90%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 
- }
+.heroIMG {
+    height: 400px;
+
+}
+
+
+.UX {
+    text-align: start;
+    padding-left: 100px;
+    font-size: 22px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    body {
+        display: block;
+        /* display: inline-block; */
+        background-color: white;
+        background: url(images/background1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top;
+        align-items: center;
+    }
+
+
+    /* TOP Navigation */
+
+    .smallLogo {
+        width: 150px;
+        height: auto;
+        margin-top: 30px;
+    }
+
+
+
+    .topNavList {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: -50%;
+        justify-content: space-between;
+    }
+
+
+    .topNavList li {
+        list-style: none;
+        padding: 0px 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #07439C;
+        background-color: white;
+        margin: 10px;
+
+    }
+
+
+    .MyProject {
+        width: 400px;
+        height: 30px;
+    }
+
+
+    .heroIMG {
+        height: 200px;
+
+    }
+
+    .biglogo {
+        display: block;
+        width: 400px;
+        height: 200px;
+        margin-left: 100px;
+        margin-top: 70px;
+        margin-bottom: 50px;
+
+    }
+
+
+    h1 {
+        color: #07439C;
+        text-align: center;
+        font-family: Merriweather, Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        align-items: center;
+        padding-left: 50px;
+    }
+
+
+    .button {
+        width: 150px;
+        padding: 5px;
+        background-color: #07439C;
+        color: white;
+        cursor: pointer;
+        border-radius: 20px;
+        font-size: 16px;
+        font-family: 'roboto', Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 10%;
+    }
+
+
+    .button2 {
+        width: 200px;
+        padding: 10px;
+        background-color: #07439C;
+        color: white;
+        cursor: pointer;
+        border-radius: 20px;
+        font-size: 20px;
+        font-family: 'roboto', Arial, Helvetica, sans-serif;
+        text-align: center;
+        /* margin-bottom: 20%; */
+        margin-top: 30px;
+    }
+
+
+
+    /* My work section */
+
+
+
+
+    .workGrid1 {
+        display: grid;
+        column-gap: 50px;
+        grid-template-columns: 1fr;
+        /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; */
+        grid-template-areas:
+            "mockup"
+            "text"
+            "mockup2"
+            "text2"
+            "mockup3"
+            "text3";
+
+        justify-items: center;
+        text-align: center;
+    }
+
+    .mockup,
+    .text2 {
+        padding-left: 0px;
+    }
+
+ 
+    
+    .mockup3 { 
+    margin-left: 10px;
+    padding: 0;}
+
+
+
+
+    .button {
+        width: 210px;
+        padding: 10px;
+        margin-top: 0px;
+        margin-bottom: 10%;
+        font-size: 18px;
+        font-weight: 600;
+        
+    }
+
+
+
+    .btnContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+    }
+
+
+    .btnContainer2 {
+        display: inline-block;
+        margin-top: 30px;
+        justify-content: center;
+        width: auto;
+    }
+
+    .text,
+    .text2,
+    .text3 {
+        margin-top: -100px;
+        width: 550px;
+        height: 250px;
+    }
+    
+
+    /* My skill section */
+
+
+
+    .flexContainer {
+        display: block;
+        flex-direction: column;
+    }
+
+
+    .flexItem {
+        background-color: white;
+        padding-left: 50px;
+        margin: 0 auto;
+        width: 100%;
+
+    }
+
+    .flexItem img {
+        width: auto;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+
+ 
+    .flexItem p {
+        text-align: start;
+
+    }
+
+
+    /* Footer section */
+
+    .footer,
+    .footerPic {
+        display: inline;
+        justify-content: space-between;
+        padding: 0 64px;
+        font-size: 28px;
+        padding-bottom: 100px;
+    }
+
+    .footerPic {
+        width: auto;
+        height: auto;
+        float: right;
+        padding-top: 80px;
+    }
+
+
+    ul {
+        margin-left: 200px;
+    }
+
+
+    .container {
+        border-radius: 5px;
+        background-color: #e8eef7;
+        padding: 10px;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
+     
+    }
+
+
+    h4 {
+        font-size:  20px;
+        text-align: center;
+        font-weight: 600;
+        padding-top: 20px;
+    }
+
+
+    h3 {
+        font-size: 22px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+
+
+h2 { font-size: 24px;}
+
+    p {
+        font-family: 'roboto', Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        padding-right: 50px;
+        margin-right: 50px;
+        margin-left: 50px;
+        text-align: start;
+    }
+
+   
+
+
+    .list2 {
+        padding-left: 50px;
+    }
+
+    .a {
+        text-align: start;
+        font-size: 24px;
+    }
+
+    .UX {
+        text-align: start;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 18px;
+    }
+    
+
+.Contact { 
+    color: #07439C;
+    text-decoration:underline;
+}
+
+}

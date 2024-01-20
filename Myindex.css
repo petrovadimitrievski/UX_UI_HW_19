@@ -64,7 +64,10 @@ body::after {
 
 
 .z { color: #07439C;
-margin-top: 50px;}
+margin-top: 50px;
+font-weight: 500;
+font-family: Merriweather, Arial, Helvetica, sans-serif;
+}
 
 
 
@@ -90,11 +93,12 @@ h1 {
 p {
     color: black;
     text-align: left;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: Merriweather, Arial, Helvetica, sans-serif;
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 30px;
     letter-spacing: 0.72px;
+   
 
 }
 
@@ -128,6 +132,7 @@ p {
 background-color: pink;
 color: #07439C;
 font-family:'Roboto', Arial, Helvetica, sans-serif;
+font-weight: 600;
 }
 
 .contactButton:hover {
@@ -135,7 +140,7 @@ font-family:'Roboto', Arial, Helvetica, sans-serif;
     text-decoration: none;
     transition: all 0.5s ease-in;
     color: pink;
-    margin-bottom: 100px;
+    
     
 }
 
