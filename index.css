@@ -95,6 +95,11 @@ li:hover {
 
 /* This is midle section */
 
+.heroIMG {
+    height: 400px;
+
+}
+
 .biglogo {
     display: flex;
     justify-content: center;
@@ -436,10 +441,7 @@ input[type=submit]:hover {
 }
 
 
-.heroIMG {
-    height: 400px;
 
-}
 
 
 .UX {
@@ -502,7 +504,11 @@ input[type=submit]:hover {
 
 
     .heroIMG {
-        height: 200px;
+        /* height: auto;
+        width: auto; */
+        height: 150px;
+        display: flex;
+       
 
     }
 
@@ -695,7 +701,7 @@ input[type=submit]:hover {
         margin-top: 30px;
         margin-bottom: 100px;
         margin-left: 50px;
-        margin-right: 50px;
+        /* margin-right: 50px; */ */
      
     }
 
@@ -749,7 +755,7 @@ h2 { font-size: 24px;}
 
 .Contact { 
     color: #07439C;
-    text-decoration:underline;
+    /* text-decoration:underline; */
 }
 
 }
