@@ -10,12 +10,14 @@ html {
 body {
     background: url(images/background.png);
     background-size: cover;
+    height: 40%;
     background-repeat: no-repeat;
     background-position: center top;
     /* align-items: center; */
     height: 1024px;
 
     margin: 0;
+ 
     display: block;
 }
 
@@ -97,10 +99,11 @@ li:hover {
 
 .heroIMG {
     height: 400px;
+    display: flex;
 
 }
 
-.biglogo {
+/* .biglogo {
     display: flex;
     justify-content: center;
     width: 670px;
@@ -108,13 +111,73 @@ li:hover {
     margin-left: 30%;
     margin-top: 70px;
     position: relative;
-}
+} */
 
-h1 {
+h1 , .biglogo  {
+    display: flex;
+    justify-content: center;
     color: #07439C;
     text-align: center;
     font-family: Merriweather, Arial, Helvetica, sans-serif;
     font-size: 32px;
+}
+
+#container {
+    color:#07439C;
+    /* text-transform: uppercase; */
+    font-size:36px;
+    font-weight:bold;
+    padding-top:50px;
+  
+    /* position:fixed; */
+    width:100%;
+    /* bottom:45%; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #flip {
+    height:50px;
+    overflow:hidden;
+  }
+  
+  #flip > div > div {
+    color:#fff;
+    padding:4px 12px;
+    height:45px;
+    width: auto;
+    margin-bottom:45px;
+    display:inline-block;
+  }
+  
+  #flip div:first-child {
+    animation: show 5s linear infinite;
+  }
+  
+  #flip div div {
+    background:#07439C;
+  }
+  #flip div:first-child div {
+    background: #ebabbe;
+  }
+  #flip div:last-child div {
+    background:#DC143C;
+  }
+  
+  @keyframes show {
+    0% {margin-top:-270px;}
+    15% {margin-top:-180px;}
+    33% {margin-top:-180px;}
+    38% {margin-top:-90px;}
+    66% {margin-top:-90px;}
+    71% {margin-top:0px;}
+    99.99% {margin-top:0px;}
+    100% {margin-top:-270px;}
+  }
+
+h1 {
+    padding-top: 50px;
 }
 
 
@@ -200,18 +263,27 @@ p {
 
 
 /*  My work */
+
+
+
+#MyWork{ padding-top: 150px;}
+
+
 .workGrid1 {
     display: grid;
     row-gap: 100px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
+        "text1 mockup1"
         "mockup text"
         "text2 mockup2"
         "mockup3 text3";
 }
 
-
+.mockup1 {
+    grid-area: mockup1;
+}
 .mockup {
     grid-area: mockup;
 }
@@ -222,6 +294,10 @@ p {
 
 .mockup3 {
     grid-area: mockup3;
+}
+
+.text1 {
+    grid-area: text1;
 }
 
 .text {
@@ -278,7 +354,8 @@ h4 {
 
 .mockup,
 .mockup3,
-.text2 {
+.text2,
+.text1{
     padding-left: 200px;
 
 }
@@ -532,7 +609,21 @@ input[type=submit]:hover {
         padding-left: 50px;
     }
 
-
+    #container {
+        color:#07439C;
+        /* text-transform: uppercase; */
+        font-size:36px;
+        font-weight:bold;
+        padding-top:50px;
+      
+        /* position:fixed; */
+        width:100%;
+        /* bottom:45%; */
+        display:block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
     .button {
         width: 150px;
         padding: 5px;
