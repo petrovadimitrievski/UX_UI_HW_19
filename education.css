@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.jumbotron {
+    background-color: white;
+    border-radius: 0rem 0rem 3rem 3rem;
+    width: auto;
+    height: 450px;
+}
+
+.navbar-expand-lg {
+    display: inline;
+    justify-content: space-between;
+}
+
+.nav-underline .nav-link {
+    display: inline;
+    padding-right: 70px;
+    padding-left: 10px;
+    font-size: 24px;
+    font-family:'Montserrat', sans-serif;
+    justify-content: space-between;
+    color:#013086;
+    font-weight: 600;
+}
+
+
+.nav-underline .nav-link:hover {
+    color:#001448 ;
+    background-color:  #FAF6D3;
+}
+
+.dropdown-item {
+    color:  #eb323b!;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dropdown-item:hover {
+    text-decoration: underline;
+    color: #001448;
+}
+
+.tri {
+    color: #FF6835;
+    margin-top: 20px;
+   margin-right: 250px;
+}
+
+
+/* Middle section  */
+.logo {
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+
+/* Midlle section */
+
+.edu {
+    padding-top: 50px;
+   
+}
+
+.edu1 { 
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+.row {
+    padding-left: 200px;
+    
+    padding-top: 20px;
+    
+}

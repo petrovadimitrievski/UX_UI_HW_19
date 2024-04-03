@@ -666,6 +666,9 @@ input[type=submit]:hover {
         grid-template-columns: 1fr;
         /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; */
         grid-template-areas:
+       
+        "mockup1"
+        "text1"
             "mockup"
             "text"
             "mockup2"
@@ -678,6 +681,7 @@ input[type=submit]:hover {
     }
 
     .mockup,
+    .text1,
     .text2 {
         padding-left: 0px;
     }
@@ -848,5 +852,4 @@ h2 { font-size: 24px;}
     color: #07439C;
     /* text-decoration:underline; */
 }
-
 }

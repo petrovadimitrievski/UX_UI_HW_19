@@ -35,9 +35,18 @@ body {
     color: white;
   }
 
+  @media screen and (max-width: 600px) {
+
+    body {
+      height: auto;
+      width: auto;
+
+      background-size:cover;
+      background-repeat: no-repeat;
+      background-position: center top;
+      align-items: center;
 
 
 
 
-
-
+    }}
