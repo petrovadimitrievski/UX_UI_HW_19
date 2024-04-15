@@ -18,7 +18,7 @@ $(".toggle").click(function(){
 });
 
 
-// $("li").css("color", "#07439C");
+// $("dropdown-item").css("color", "#07439C");
 
 
 
