@@ -17,13 +17,13 @@ html {
 .navbar-expand-lg {
     display: inline;
     justify-content: space-between;
-    padding-right: 100px;
+    /* padding-right: 100px; */
 }
 
 .nav-underline .nav-link {
     display: inline;
-    margin-right: 100px;
-    padding-right: 100px;
+    /* margin-right: 100px;
+    padding-right: 100px; */
     padding-left: 100px;
     font-size: 24px;
     font-family:'Montserrat', sans-serif;
@@ -38,7 +38,8 @@ html {
     background-color: #FAF6D3;
 }
 
-.nav-underline { padding-right: 100px;
+.nav-underline { 
+    padding-right: 100px;
 margin-left: 150px;}
 
 
