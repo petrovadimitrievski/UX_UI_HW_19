@@ -545,7 +545,7 @@ input[type=submit]:hover {
     /* TOP Navigation */
 
     .smallLogo {
-        width: 150px;
+        width: 0px;
         height: auto;
         margin-top: 30px;
     }
@@ -581,9 +581,9 @@ input[type=submit]:hover {
 
 
     .heroIMG {
-        /* height: auto;
-        width: auto; */
-        height: 150px;
+        height: auto;
+        width: auto;
+        height: 100px;
         display: flex;
        
 
@@ -592,10 +592,10 @@ input[type=submit]:hover {
     .biglogo {
         display: block;
         width: 400px;
-        height: 200px;
-        margin-left: 100px;
+        /* height: 200px; */
+        margin-left: 50px;
         margin-top: 70px;
-        margin-bottom: 50px;
+        /* margin-bottom: 50px; */
 
     }
 
